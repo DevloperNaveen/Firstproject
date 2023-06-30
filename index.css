@@ -1,0 +1,162 @@
+body {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 60px;
+    /* border: 2px solid red; */
+    background-color:#1b7280;
+}
+
+#brand {
+    float: left;
+    font-size: 45px;
+    color: #ffffff;
+    margin-left: 1%;
+    margin-top:0%;
+}
+
+#social {
+    float: right;
+}
+
+.slogo {
+    height: 50px;
+    width: 50px;
+}
+
+#search {
+    height: 400px;
+    /* border: 2px dotted blue; */
+    background-image: url(image/food-wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 400px; */
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 60%;
+    margin-left: 45%;
+    margin-top: 3%;
+    position: absolute;
+
+}
+
+.logo>span {
+    margin-left: 27%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 90px;
+}
+
+#heading {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 18%;
+    margin-top: 13%;
+    position: absolute;
+    font-size: 78px;
+}
+
+.dropdown {
+
+    height: 60px;
+    width: 45%;
+    /* border: 2px solid white; */
+    margin-left: 29%;
+    margin-top: 20%;
+    position: absolute;
+    
+}
+select{
+    height: 60px;
+    width: 38%;
+    text-align: center;
+    font-size: 20px;
+}
+#droprest{
+    width: 58%;
+}
+#quicksearch {
+    /* height: 600px;
+    border: 2px double greenyellow; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    display: inline-block;
+
+}
+
+.quicksearchheading{
+    color:#1b7280 ;
+    font-weight: bold;
+    display: block;
+    font-size: 30px;
+}
+
+.quicksearchsubheading{
+ color: grey;
+ font-size: 20px;
+ line-height: 2;
+}
+.tilecontainer{
+    height: 180px;
+    width: 30%;
+    /* border: 2px solid orange;  */
+    margin-left: 2%;
+    margin-top: 3%;
+    float: left;
+    box-shadow: 10px 20px 10px black;
+}
+.tilecomponent1{
+    width: 52%;
+    float: left;
+}
+.tilecomponent1 > img{
+    height: 100%;
+    width: 100%;
+}
+.tilecomponent2{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 18%;
+}
+.compheading{
+    color: #1b7280;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.compsubheading{
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+footer {
+    height: 130px;
+    background-color:#1b7280;
+    color: white;
+    text-align: center;
+}
+.footdiv{
+    float: left;
+    width: 30%;
+    border-right:1px solid white;
+}
+ul{
+    list-style:none ;
+}
+.noborder{
+    border: none;
+}
